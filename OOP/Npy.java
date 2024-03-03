@@ -11,8 +11,9 @@ public class Npy {
         System.out.println("好感度: " + this.favorability);
     }
 
-    public void getRecievedGifts() {
+    public int getRecievedGifts() {
         System.out.println("收到的礼物: " + this.recievedGifts);
+        return this.recievedGifts;
     }
 
     public static void main(String[] args) {
